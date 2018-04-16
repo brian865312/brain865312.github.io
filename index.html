@@ -8,6 +8,22 @@
     </head>
     
     <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+            $("#b1").click(function()	{
+				$("#i1").attr('src','https://hypb.imgix.net/image/2018/02/nike-pg2-all-star-1.jpg?q=75&w=800&fit=clip&auto=compress%2Cformat');
+			    });
+
+			$("#b2").click(function(){					
+                $("#i1").attr('src','https://pmcfootwearnews.files.wordpress.com/2018/03/nike-pg-2-mamba-mentality.jpg);
+			    });
+  
+   });
+</script>
+            
+        
+        
         <style>
             h1{ font-family: Lobster, Monospace; } body { background-color: black;
             } .white-text { color: white; }
@@ -53,8 +69,17 @@
                         【分享】實體開箱 Nike PG2 EP
                     </font>
                 </a>
-            </p>
-            <br/>
+            
+            <button id="b1">PG2 ASG</button>
+            <button id="b2">PG2 mamba-mentality </button>
+            <img id="i1" src="https://pmcfootwearnews.files.wordpress.com/2018/03/nike-pg-2-mamba-mentality.jpg"
+                 width="600" height="450"></p>
+          
+            
+            
+            
+            
+            
             <br/>
             <br/>
             <br/>
@@ -99,6 +124,9 @@
                 </a>
             </font>
         </p>
-    </body>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    </body>
+    
 </html>
